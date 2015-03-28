@@ -29,9 +29,11 @@
 - (BOOL) integer:(NSInteger)integer1 isGreaterThan:(NSInteger)integer2 {
     /* WORK HERE */
     
-    integer1 <= integer2;
-    
-    return (@"7 is greater than 4.");
+    if(integer1 <= integer2){
+       
+        return (@"7 is greater than 4.");
+    }
+    return YES;
 }
 
 @end
