@@ -14,7 +14,7 @@
 
 @property (nonatomic,copy) NSMutableArray *copiedArray;
 
-@property (assign,nonatomic) CGFloat *rememberedFloat;
+@property (assign,nonatomic) CGFloat rememberedFloat;
 
 /*
  
